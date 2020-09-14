@@ -103,3 +103,11 @@ protected synchronized Class<?> loadClass(String name, boolean resolve) throws C
 ```
 
 java.lang.ClassLoader 的 loadClass() 实现了双亲委派模型的逻辑，因此自定义类加载器一般不去重写它，但是需要重写 findClass() 方法。
+
+
+
+
+
+---
+
+参考：《深入理解java虚拟机》
